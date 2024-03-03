@@ -29,6 +29,8 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: pip install mkdocs-glight
+      - run: pip install mkdocs-same-dir
 
 
       - run: mkdocs gh-deploy --force
